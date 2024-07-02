@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">newApp</string>
+    <string name="helloPage">Hello and welcome to my new app, this text is currently stored in the strings xml file for the easy access of this text</string>
+</resources>
