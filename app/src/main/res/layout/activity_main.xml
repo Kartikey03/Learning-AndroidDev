@@ -46,4 +46,14 @@
         android:textSize="16sp"
         android:textStyle="bold" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/animation"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Animations"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
 </LinearLayout>

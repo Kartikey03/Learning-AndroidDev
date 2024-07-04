@@ -17,21 +17,30 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btn;
+        Button btn, animbtn;
         EditText edit;
         btn = findViewById(R.id.next);
-        edit = findViewById(R.id.edittext);
+        animbtn = findViewById(R.id.animation);
         Intent next; //new intent has been made to switch the screen
         next = new Intent(MainActivity.this, SecondActivity.class); //telling the intent that it have to go from the MainActivity to the SecondActivity
         next.putExtra("title", "Home");
         next.putExtra("StudentName", "Kartikey");
         next.putExtra("rollNumber", 10);
 
+        Intent next2 = new Intent(MainActivity.this, AnimationActivity.class);
+
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(next);
+            }
+        });
+
+        animbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(next2);
             }
         });
     }
