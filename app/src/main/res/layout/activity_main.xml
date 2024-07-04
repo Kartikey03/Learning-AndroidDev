@@ -28,6 +28,7 @@
         android:textStyle="bold" />
 
     <EditText
+        android:id="@+id/edittext"
         android:layout_width="370dp"
         android:layout_height="56dp"
         android:layout_margin="10dp"

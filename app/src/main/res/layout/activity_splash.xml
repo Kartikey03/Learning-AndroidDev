@@ -8,18 +8,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".SecondActivity">
+    android:background="@color/teal_700"
+    tools:context=".SplashActivity">
 
     <TextView
-        android:id="@+id/info"
+        android:id="@+id/spashText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello"
-        android:textSize="50dp"/>
+        android:text="HELLO THERE!"
+        android:textSize="40dp"/>
 
-    <TextView
-        android:id="@+id/second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""/>
 </LinearLayout>
